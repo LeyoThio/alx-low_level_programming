@@ -1,16 +1,20 @@
 #include <stdio.h>
 /**
-* main - entry point
-*
-* Return: 0 if success
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success/correct)
+ */
 int main(void)
+
 {
-   
-for (int i = 0; i <= 9; i++)
-	{
-		putchar(i + '0');
-	}
-	putchar('\n');
+int i;
+
+for (i = 48; i <= 57; i++)
+{
+putchar (i);
+}
+putchar('\n');
+
 return (0);
+
 }
