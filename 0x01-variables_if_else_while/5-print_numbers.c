@@ -1,17 +1,20 @@
 #include <stdio.h>
 /**
-* main - entry point
-*
-* Return: 0 if success
-*/
-int main(void)
+ * main - Entry point
+ * Return: Always 0 (Success/correct)
+ */
+int main(void) 
+
 {
- 
-for (int i = 0; i <= 9; i++)
-	{
-		printf("%d", i);
-	}
-	printf("\n");
+int digit;
+
+for (digit = 0 ; digit < 10; digit++)
+{
+printf("%digit", digit);
+}
+
+printf("\n");
 
 return (0);
+
 }
